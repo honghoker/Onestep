@@ -377,6 +377,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
+  flutter_riverpod:
+    dependency: "direct main"
+    description:
+      name: flutter_riverpod
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.13.1"
   flutter_swiper:
     dependency: "direct main"
     description:
@@ -724,7 +731,7 @@ packages:
     source: hosted
     version: "3.0.1"
   riverpod:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: riverpod
       url: "https://pub.dartlang.org"
@@ -806,7 +813,7 @@ packages:
     source: hosted
     version: "1.10.0"
   state_notifier:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: state_notifier
       url: "https://pub.dartlang.org"
