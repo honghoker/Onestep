@@ -8,7 +8,7 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
   int _currentIndex;
-  final GlobalKey<ScaffoldState> _globalKey = GlobalKey();
+
   static DateTime currentBackPressTime;
 
   @override
