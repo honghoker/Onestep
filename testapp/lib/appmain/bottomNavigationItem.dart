@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:testapp/board/boardMain.dart';
 import 'package:testapp/home/homeMain.dart';
-import 'package:testapp/myinfo/myinfoMain.dart';
+import 'package:testapp/myinfo/pages/myinfoMain.dart';
+
 import 'package:testapp/notification/notificationMain.dart';
 import 'package:testapp/product/pages/productMain.dart';
 

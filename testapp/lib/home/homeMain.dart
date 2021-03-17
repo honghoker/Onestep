@@ -14,8 +14,10 @@ class _HomeMainState extends State<HomeMain> {
       appBar: AppBar(
         title: Text("홈"),
       ),
-      body: Container(
-        child: Text("홈"),
+      body: Center(
+        child: Container(
+          child: Text("홈"),
+        ),
       ),
     );
   }
