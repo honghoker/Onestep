@@ -48,15 +48,20 @@ dependencies:
   ###########
 
   pattern_formatter: ^2.0.0    # 숫자, 날짜 format 라이브러리
-  permission_handler: ^6.1.0 # 권한 요청
+  permission_handler: ^6.1.0   # 권한 요청
   random_string: ^2.2.0-nullsafety  # fireStoreage image random name
   flutter_swiper: ^1.1.6       # image slider
   unicorndial: "^1.1.5"        # multi floatingActionButton 
   
+  #time
+  timeago: ^3.0.2 # 몇분전, 몇일전 표시
+  ###########
+
+
   #provider
   flutter_riverpod: ^0.13.1
   state_notifier: ^0.7.0
-
+  ###############
 
 dev_dependencies:
   flutter_test:
