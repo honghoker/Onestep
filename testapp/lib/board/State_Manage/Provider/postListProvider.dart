@@ -46,6 +46,7 @@ class PostListProvider with ChangeNotifier {
     String boardName, {
     DocumentSnapshot startAfter,
   }) async {
+    print("getboard");
     var refProducts;
 
     refProducts = FirebaseFirestore.instance
