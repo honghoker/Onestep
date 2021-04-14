@@ -32,9 +32,9 @@ class RouteGenerator {
     //case에는 /를 제외하고 원하는 이름으로 설정, pushNamed할 때는 /를 포함하여 자신이 설정한 이름으로 불러옴.
     switch (_pageName) {
       case 'PostList':
-        _pageWidget = PostList(
-          boardCategory: arguments["BOARD_NAME"],
-        );
+        _pageWidget = PostListRiverpod(
+            // boardCategory: arguments["BOARD_NAME"],
+            );
         break;
       // case 'MainPage':
       //   //var arg = preferences.getString('id') ?? '아이디없음';
